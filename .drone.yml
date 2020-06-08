@@ -10,7 +10,7 @@ steps:
       - mvn -Dmaven.test.skip=true assembly:assembly
   - name: unittests
     image: maven:3-jdk-11
-    command:
+    commands:
       - mvn test
   - name: pmd
     image: rawdee/pmd
