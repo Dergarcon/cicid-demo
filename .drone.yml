@@ -19,7 +19,7 @@ steps:
   - name: publish
     image: plugins/docker
     settings:
-      repo: dergarcon/cicid-demo
+      repo: dergarcon/calculator
       username:
         from_secret: dockerhub_user
       password:
